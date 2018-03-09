@@ -1,12 +1,12 @@
 PATH
   remote: .
   specs:
-    beardown-compat (0.1.0)
+    beardown-compat (0.1.2)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    beardown (0.1.3)
+    beardown (0.1.4)
     minitest (5.11.3)
     rake (10.5.0)
 
@@ -14,7 +14,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  beardown (>= 0.1.3)
+  beardown (>= 0.1.4)
   beardown-compat!
   bundler (~> 1.16)
   minitest (~> 5.0)

@@ -5,9 +5,9 @@ module Beardown
     START_CHAR_UNDERLINE = "~"
     START_CHAR_STRIKE = "~"
 
-    REGEXP_BOLD = /\*\*(.+)\*\*/
-    REGEXP_ITALIC = /\*(.+)\*/
-    REGEXP_STRIKE = /\~\~(.+)\~\~/
-    REGEXP_UNDERLINE = /\~(.+)\~/
+    REGEXP_BOLD = /\*\*(.*?[^\s])\*\*/
+    REGEXP_ITALIC = /\*(.*?[^\s])\*/
+    REGEXP_STRIKE = /\~\~(.*?[^\s])\~\~/
+    REGEXP_UNDERLINE = /\~(.*?[^\s])\~/
   end
 end
