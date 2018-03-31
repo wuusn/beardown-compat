@@ -12,4 +12,8 @@ class BugTest < Minitest::Test
   def test_greedy_with_bold_italic_underline_strike
     assert_equal parse("**bold** and **bold**"), "<p><b>bold</b> and <b>bold</b></p>\n"
   end
+
+  def test_underline_with_space
+    assert_equal parse("~ test~"), "<p>~ test~</p>\n"
+  end
 end
