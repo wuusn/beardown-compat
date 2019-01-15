@@ -16,4 +16,8 @@ class BugTest < Minitest::Test
   def test_underline_with_space
     assert_equal parse("~ test~"), "<p>~ test~</p>\n"
   end
+
+  def test_miya_issue_18
+    filetest "miya#18"
+  end
 end

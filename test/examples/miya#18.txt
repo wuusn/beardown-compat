@@ -1,0 +1,5 @@
+* List item starting with *
+* Another list item starting with *
+
+- List item starting with -
+- Another list item starting with -
